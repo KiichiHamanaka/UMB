@@ -6,6 +6,21 @@ const api = new YoutubeDataAPI(API_KEY);
 
 export const currentSonglist:youtubeInfo[] = [];
 
+const list:youtubeInfo[] = [
+    {
+        videoId: "kt2D7xl06mk",
+        songTitle: "VIDEO 10s",
+        songArtist: "China",
+        currentTime: 0
+    },
+    {
+        videoId: "FkVYHUMCCwc",
+        songTitle: "DESU",
+        songArtist: "Suiseiseki",
+        currentTime: 0
+    }
+]
+
 let startTime:Date,currentTime:Date
 let videoEndTime = 0
 
@@ -15,14 +30,8 @@ export const startYoutube = async () => {
     currentSonglist.pop()
 
     if(!currentSonglist.length){
-       currentSonglist.push(
-           {
-           videoId: "kt2D7xl06mk",
-           songTitle: "VIDEO 10s",
-           songArtist: "China",
-           currentTime: 0
-            }
-       ) //曲ランダム追加
+        const rnum = Math.floor(Math.random() * list.length)
+        currentSonglist.push(list[rnum]) //曲ランダム追加
     }
     await loadVideo(currentSonglist[0].videoId) //配列の最初のID
     await console.log(`動画時間は${videoEndTime/1000}秒です`)
@@ -37,7 +46,7 @@ const loadVideo = async (id:string) =>{
     await api.searchVideo(id).then((data:any) => {
         console.log(data)
         const duration = data.items[0].contentDetails.duration
-        videoEndTime = cnvDuration(duration) * 1000
+        videoEndTime = (cnvDuration(duration)+5) * 1000
         startTime = new Date()
     })
 }

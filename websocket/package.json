@@ -16,7 +16,7 @@
   },
   "scripts": {
     "tsc": "tsc",
-    "start": "pm2 start processes.json",
+    "start": "ts-node index.ts",
     "log": "pm2 logs"
   },
   "name": "src",
