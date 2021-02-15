@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6775c112-a602-4882-9c46-db2ff09638d2" name="デフォルト変更リスト" comment="add front">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/components/Player.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front/components/Player.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/pages/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/websocket/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/youtube.ts" beforeDir="false" afterPath="$PROJECT_DIR$/websocket/youtube.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +22,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/front" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1oGGDg3UjGYx1eNDxcAktk3Xqoq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -33,7 +38,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
-    <property name="ts.external.directory.path" value="C:\Users\dogag\workspace\UMB\websocket\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -72,7 +77,8 @@
       <workItem from="1612916336261" duration="23884000" />
       <workItem from="1613067290076" duration="6642000" />
       <workItem from="1613159604793" duration="40403000" />
-      <workItem from="1613369935168" duration="7042000" />
+      <workItem from="1613369935168" duration="11457000" />
+      <workItem from="1613389601763" duration="1471000" />
     </task>
     <task id="LOCAL-00001" summary="socketio動作確認まで">
       <created>1613167500741</created>

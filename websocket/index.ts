@@ -47,5 +47,5 @@ ws.on('connection', (socket: Socket) => {
          console.log(`${socket.id} call me`)
     });
 });
-youtube.startYoutube()
+
 console.log(youtube.getPlayList())

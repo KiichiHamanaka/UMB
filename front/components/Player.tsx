@@ -4,46 +4,46 @@ import { youtubeInfo } from '../types'
 import io from "socket.io-client"
 const socket = io('localhost:3001')
 
-type ACTIONTYPE =
-  | { type: 'addVideo'; payload: youtubeInfo }
-  | { type: 'removeVideo'; payload: youtubeInfo }
+// type ACTIONTYPE =
+//   | { type: 'addVideo'; payload: youtubeInfo }
+//   | { type: 'removeVideo'; payload: youtubeInfo }
 
 let videos: youtubeInfo[] = []
 let currentTime = 0
-const reducer = (
-  state: typeof videos,
-  action: ACTIONTYPE
-): youtubeInfo[] => {
-  switch (action.type) {
-    case 'addVideo':
-      return [
-        ...videos,
-        {
-          videoId: 'XxVg_s8xAms',
-          songTitle: 'cat',
-          songArtist: 'human',
-          currentTime: 0
-        }
-      ]
-    case 'removeVideo':
-      return [
-        ...videos,
-        {
-          videoId: 'XxVg_s8xAms',
-          songTitle: 'cat',
-          songArtist: 'human',
-          currentTime: 0
-        }
-      ]
-    default:
-      throw new Error()
-  }
-}
+// const reducer = (
+//   state: typeof videos,
+//   action: ACTIONTYPE
+// ): youtubeInfo[] => {
+//   switch (action.type) {
+//     case 'addVideo':
+//       return [
+//         ...videos,
+//         {
+//           videoId: 'XxVg_s8xAms',
+//           songTitle: 'cat',
+//           songArtist: 'human',
+//           currentTime: 0
+//         }
+//       ]
+//     case 'removeVideo':
+//       return [
+//         ...videos,
+//         {
+//           videoId: 'XxVg_s8xAms',
+//           songTitle: 'cat',
+//           songArtist: 'human',
+//           currentTime: 0
+//         }
+//       ]
+//     default:
+//       throw new Error()
+//   }
+// }
 
 const Player = () => {
   const [videoId, setVideoId] = useState('FkVYHUMCCwc');
   const [player, setPlayer] = useState(null)
-  const [video, setVideo] = useReducer(reducer, videos)
+  // const [video, setVideo] = useReducer(reducer, videos)
 
   socket.on("hello", (msg:object)=>{
     console.log(msg)
@@ -65,8 +65,8 @@ const Player = () => {
     socket.emit('currentTime', () => {})
     console.log(videos)
     player.seekTo(currentTime)
-    player.playVideo()
     player.unMute()
+    player.playVideo()
   }
 
   const onReady = async (event:any) => {

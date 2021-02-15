@@ -22,20 +22,20 @@ const list:youtubeInfo[] = [
 ]
 
 let startTime:Date,currentTime:Date
-let videoEndTime = 0
+let videoEndTime:number = 0
 
-//再帰関数作ってそいつにロードさせる
-
+/*再帰関数作ってそいつにロードさせる
+* 再帰関数やめたほうがいい？上でロードさせる？
+*/
 export const startYoutube = async () => {
     currentSonglist.pop()
-
     if(!currentSonglist.length){
         const rnum = Math.floor(Math.random() * list.length)
         currentSonglist.push(list[rnum]) //曲ランダム追加
     }
     await loadVideo(currentSonglist[0].videoId) //配列の最初のID
     await console.log(`動画時間は${videoEndTime/1000}秒です`)
-    setTimeout(startYoutube,videoEndTime)
+    //setTimeout(startYoutube, videoEndTime)
 }
 
 /*
