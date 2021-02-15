@@ -48,4 +48,8 @@ ws.on('connection', (socket: Socket) => {
     });
 });
 
+youtube.startYoutube()
 console.log(youtube.getPlayList())
+
+// TODO:動画終了時に次の動画をロードする機能作成
+// TODO: id,曲タイトル,アーティスト保持するテーブル作る
