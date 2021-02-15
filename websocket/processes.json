@@ -1,0 +1,4 @@
+[{
+  "name"      : "websocket",
+  "script"    : "./index.ts"
+}]

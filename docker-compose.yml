@@ -1,0 +1,30 @@
+version: '3'
+
+services:
+  api:
+    image: node:lts
+    container_name: umaibou-api
+    tty: true
+    volumes:
+      - ./api:/src
+    working_dir: "/src"
+  websocket:
+    image: node:lts
+    container_name: umaibou-websocket
+    tty: true
+    volumes:
+      - ./websocket:/src
+    working_dir: "/src"
+    ports:
+      - '3001:3001'
+    command: yarn start
+  front:
+    image: node:lts
+    container_name: umaibou-front
+    tty: true
+    volumes:
+      - ./front:/src
+    working_dir: "/src"
+    ports:
+      - '3000:3000'
+    command: yarn dev
