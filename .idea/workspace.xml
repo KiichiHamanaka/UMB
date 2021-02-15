@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6775c112-a602-4882-9c46-db2ff09638d2" name="デフォルト変更リスト" comment="add front">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/front" />
+  </component>
+  <component name="ProjectId" id="1oGGDg3UjGYx1eNDxcAktk3Xqoq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="ts.external.directory.path" value="C:\Users\dogag\workspace\UMB\websocket\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dogag\workspace\UMB\websocket\types" />
+      <recent name="C:\Users\dogag\workspace\UMB\front\types" />
+      <recent name="C:\Users\dogag\workspace\UMB\websocket\src" />
+      <recent name="C:\Users\dogag\workspace\UMB\front\components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dogag\workspace\UMB" />
+      <recent name="C:\Users\dogag\workspace\UMB\websocket\src\server" />
+      <recent name="C:\Users\dogag\workspace\UMB\websocket\public" />
+      <recent name="C:\Users\dogag\workspace\UMB\websocket\src\client" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UMB/websocket/public/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript デバッグ.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="デフォルトタスク">
+      <changelist id="6775c112-a602-4882-9c46-db2ff09638d2" name="デフォルト変更リスト" comment="" />
+      <created>1612905395701</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612905395701</updated>
+      <workItem from="1612905396848" duration="6091000" />
+      <workItem from="1612916336261" duration="23884000" />
+      <workItem from="1613067290076" duration="6642000" />
+      <workItem from="1613159604793" duration="40403000" />
+      <workItem from="1613369935168" duration="7042000" />
+    </task>
+    <task id="LOCAL-00001" summary="socketio動作確認まで">
+      <created>1613167500741</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613167500741</updated>
+    </task>
+    <task id="LOCAL-00002" summary="youtube動作確認まで">
+      <created>1613356263289</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1613356263289</updated>
+    </task>
+    <task id="LOCAL-00003" summary="わからん">
+      <created>1613369403146</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1613369403146</updated>
+    </task>
+    <task id="LOCAL-00004" summary="わからん">
+      <created>1613369955876</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1613369955876</updated>
+    </task>
+    <task id="LOCAL-00005" summary="わからん">
+      <created>1613370083735</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1613370083735</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="socketio動作確認まで" />
+    <MESSAGE value="youtube動作確認まで" />
+    <MESSAGE value="わからん" />
+    <MESSAGE value="add front" />
+    <option name="LAST_COMMIT_MESSAGE" value="add front" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
