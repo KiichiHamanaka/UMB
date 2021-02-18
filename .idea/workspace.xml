@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6775c112-a602-4882-9c46-db2ff09638d2" name="デフォルト変更リスト" comment="add front">
-      <change afterPath="$PROJECT_DIR$/websocket/util.ts" afterDir="false" />
+    <list default="true" id="6775c112-a602-4882-9c46-db2ff09638d2" name="デフォルト変更リスト" comment="ちょっときれいにした">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/components/Player.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front/components/Player.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/websocket/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/websocket/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/websocket/youtube.ts" beforeDir="false" afterPath="$PROJECT_DIR$/websocket/youtube.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/util.ts" beforeDir="false" afterPath="$PROJECT_DIR$/websocket/util.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/youtube.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +22,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1oGGDg3UjGYx1eNDxcAktk3Xqoq" />
@@ -78,7 +83,8 @@
       <workItem from="1613067290076" duration="6642000" />
       <workItem from="1613159604793" duration="40403000" />
       <workItem from="1613369935168" duration="11457000" />
-      <workItem from="1613389601763" duration="6471000" />
+      <workItem from="1613389601763" duration="10640000" />
+      <workItem from="1613517553135" duration="7344000" />
     </task>
     <task id="LOCAL-00001" summary="socketio動作確認まで">
       <created>1613167500741</created>
@@ -122,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613393520230</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ちょっときれいにした">
+      <created>1613398535185</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1613398535185</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,7 +168,8 @@
     <MESSAGE value="youtube動作確認まで" />
     <MESSAGE value="わからん" />
     <MESSAGE value="add front" />
-    <option name="LAST_COMMIT_MESSAGE" value="add front" />
+    <MESSAGE value="ちょっときれいにした" />
+    <option name="LAST_COMMIT_MESSAGE" value="ちょっときれいにした" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

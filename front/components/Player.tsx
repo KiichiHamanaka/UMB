@@ -1,7 +1,7 @@
 import React, { useReducer, useState } from 'react'
 import YouTube, { Options, } from 'react-youtube'
 import { youtubeInfo } from '../types'
-import { YouTubePlayer } from 'youtube-player/dist/types';
+// import { YouTubePlayer } from 'youtube-player/dist/types';
 
 import io from "socket.io-client"
 const socket = io('localhost:3001')
@@ -13,10 +13,9 @@ const Player = () => {
   const [videoId, setVideoId] = useState('FkVYHUMCCwc');
   const [player, setPlayer] = useState(null)
 
-  socket.on("getPlayList",(params:any)=>{
-    videos = params.videos
-    console.log(`playing now ${videos[0]}`)
-    setVideoId(videos[0].videoId)
+  socket.on("getPlayList",(params:{videos:youtubeInfo[]})=>{
+    console.info(`playing now ${params.videos[0]}`)
+    setVideoId(params.videos[0].videoId)
   })
 
   socket.on("currentTime", (videoTime:number)=>{
@@ -32,8 +31,12 @@ const Player = () => {
     player.playVideo()
   }
 
-  const onReady = (event:{target: YouTubePlayer}) => {
-    setPlayer(event)
+  // const onReady = (event:{target: YouTubePlayer}) => {
+  //   setPlayer(event)
+  // }
+
+  const onReady = (event:any) => {
+    setPlayer(event.target)
   }
 
   const options = {
@@ -42,7 +45,6 @@ const Player = () => {
     playerVars: {
       start: currentTime,
       autoplay: 1,
-      mute: 1,
     }
   } as Options
 
@@ -54,6 +56,7 @@ const Player = () => {
         onReady={onReady}
         onPause={reloadVideo}
         />
+        <button type="button" onClick={() => socket.emit("currentTime", () => {})}></button>
       </div>
   )
 }
