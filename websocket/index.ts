@@ -34,10 +34,10 @@ const ws = new io.Server(server, {
         origin: 'http://localhost:3000',
         methods: ["GET", "POST"]
     },
-});
+})
 
 const API_KEY = "AIzaSyAcFfuw6JtPK-GkXlQtlRK0yEJgU9mfmRM"
-const api = new YoutubeDataAPI(API_KEY);
+const api = new YoutubeDataAPI(API_KEY)
 
 let Toriaezu: Socket|null = null
 
@@ -46,13 +46,13 @@ const currentSonglist:youtubeInfo[] = [];
 const list:youtubeInfo[] = [
     {
         videoId: "kt2D7xl06mk",
-        songTitle: "VIDEO 10s",
+        songTitle: "VIDEO 11s",
         songArtist: "China",
         currentTime: 0
     },
     {
         videoId: "p1_bnT2PBsM",
-        songTitle: "video_20s",
+        songTitle: "video_28s",
         songArtist: "USA",
         currentTime: 0
     }
@@ -114,6 +114,7 @@ const startYoutube = async () => {
 ws.on('connection', (socket: Socket) => {
     console.log("New client connected")
     Toriaezu = socket
+    // getAll(socket)
     socket.on("currentTime", ()=>socket.emit("currentTime", getTime()))
     socket.on("getPlayList", ()=>{
          getAll(socket)

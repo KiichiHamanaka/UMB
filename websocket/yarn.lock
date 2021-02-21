@@ -195,6 +195,11 @@
     "@types/node" "*"
     "@types/socket.io-parser" "*"
 
+"@types/youtube-player@^5.5.3":
+  version "5.5.3"
+  resolved "https://registry.yarnpkg.com/@types/youtube-player/-/youtube-player-5.5.3.tgz#84c450c766e19bda507a37e617e288a8ece3450c"
+  integrity sha512-G9k9Q8fyOwzX4A8DI90WB2viYlpxDazoLZDe37GY9+82JL2OOFhEzz6yUIKEt4klACdx/UUuY0BesD68BVR7SA==
+
 "@types/yt-player@^3.5.0":
   version "3.5.0"
   resolved "https://registry.yarnpkg.com/@types/yt-player/-/yt-player-3.5.0.tgz#9aa05046b935a392f5c7e943cd31278f74644822"
