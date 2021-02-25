@@ -1,7 +1,7 @@
 import express from 'express'
 import io, { Socket } from 'socket.io';
 import {YoutubeDataAPI} from 'youtube-v3-api'
-import {youtubeInfo} from './types/index'
+import {youtubeInfo} from './types'
 import * as util from './util'
 
 const app: express.Express = express()
@@ -46,12 +46,14 @@ const currentSonglist:youtubeInfo[] = [];
 const list:youtubeInfo[] = [
     {
         videoId: "kt2D7xl06mk",
+        videoURL: "https://www.youtube.com/watch?v=kt2D7xl06mk",
         songTitle: "VIDEO 11s",
         songArtist: "China",
         currentTime: 0
     },
     {
         videoId: "p1_bnT2PBsM",
+        videoURL: "https://www.youtube.com/watch?v=p1_bnT2PBsM",
         songTitle: "video_28s",
         songArtist: "USA",
         currentTime: 0
@@ -115,7 +117,9 @@ ws.on('connection', (socket: Socket) => {
     console.log("New client connected")
     Toriaezu = socket
     // getAll(socket)
-    socket.on("currentTime", ()=>socket.emit("currentTime", getTime()))
+    socket.on("currentTime", ()=>{
+        socket.emit("currentTime", getTime())
+    })
     socket.on("getPlayList", ()=>{
          getAll(socket)
          console.log(getPlayList())

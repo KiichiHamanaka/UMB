@@ -1,6 +1,7 @@
 export type youtubeInfo = {
-  videoId: string
-  songTitle: string
-  songArtist: string
-  currentTime: number
+    videoId: string
+    videoURL: string
+    songTitle: string
+    songArtist: string
+    currentTime: number
 }
