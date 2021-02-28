@@ -79,7 +79,8 @@ const loadVideo = async (id:string) =>{
  */
 const getTime = ():number => {
     currentTime = new Date()
-    let elapsedTime = Math.floor((currentTime.getTime()  - startTime.getTime() ) / 1000);
+    let elapsedTime = Math.floor((currentTime.getTime()  - startTime.getTime() ) / 1000)
+
     return elapsedTime
 }
 
@@ -117,6 +118,9 @@ ws.on('connection', (socket: Socket) => {
     console.log("New client connected")
     Toriaezu = socket
     // getAll(socket)
+    socket.on('chat message', (msg:string) => {
+        socket.emit('chat message', msg);
+    });
     socket.on("currentTime", ()=>{
         socket.emit("currentTime", getTime())
     })

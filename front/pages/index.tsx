@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Player from '../components/Player'
+import Chat from '../components/Chat'
 import React from 'react'
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
           うまい某Japan
         </h1>
         <Player />
+        <Chat />
       </main>
 
       <footer className={styles.footer}>

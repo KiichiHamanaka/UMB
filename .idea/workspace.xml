@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6775c112-a602-4882-9c46-db2ff09638d2" name="デフォルト変更リスト" comment="苦肉の策 神クラス 終わり">
+    <list default="true" id="6775c112-a602-4882-9c46-db2ff09638d2" name="デフォルト変更リスト" comment="react-youtubeからreact-playerに変更">
+      <change afterPath="$PROJECT_DIR$/front/components/Chat.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/hooks/socket.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/hooks/youtube.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/components/Player.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front/components/Player.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/types/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/front/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front/pages/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/websocket/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/websocket/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/websocket/types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/websocket/types/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/websocket/yarn-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/websocket/yarn-error.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +20,7 @@
       <list>
         <option value="HTML File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -43,7 +43,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../react-youtube-sync" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Riakuto-StartingReact-ja3.1" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="terminal" />
     <property name="ts.external.directory.path" value="C:\Users\dogag\workspace\UMB\websocket\node_modules\typescript\lib" />
@@ -91,7 +91,12 @@
       <workItem from="1613889374160" duration="15331000" />
       <workItem from="1613914669514" duration="37000" />
       <workItem from="1614046142642" duration="12237000" />
-      <workItem from="1614168028403" duration="2652000" />
+      <workItem from="1614168028403" duration="2895000" />
+      <workItem from="1614231084612" duration="98000" />
+      <workItem from="1614266528190" duration="545000" />
+      <workItem from="1614267087198" duration="5012000" />
+      <workItem from="1614298873278" duration="12797000" />
+      <workItem from="1614405462350" duration="170000" />
     </task>
     <task id="LOCAL-00001" summary="socketio動作確認まで">
       <created>1613167500741</created>
@@ -156,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613895269731</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="react-youtubeからreact-playerに変更">
+      <created>1614230480637</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1614230480637</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,7 +203,8 @@
     <MESSAGE value="add front" />
     <MESSAGE value="ちょっときれいにした" />
     <MESSAGE value="苦肉の策 神クラス 終わり" />
-    <option name="LAST_COMMIT_MESSAGE" value="苦肉の策 神クラス 終わり" />
+    <MESSAGE value="react-youtubeからreact-playerに変更" />
+    <option name="LAST_COMMIT_MESSAGE" value="react-youtubeからreact-playerに変更" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
